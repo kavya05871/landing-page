@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brew Haven - The Perfect Cup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav__header">
+            <div class="nav__logo"><a href="#">Brew<span>Haven</span></a></div>
+            <ul class="nav__links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero__content">
+            <h1>Welcome to <span>Brew Haven</span></h1>
+            <p>Your perfect cup of coffee awaits. Discover our diverse range of blends and flavors.</p>
+            <button onclick="window.location.href='#featured'">Explore Menu</button>
+        </div>
+    </header>
+
+    <!-- Featured Products Section -->
+    <section id="featured" class="featured-products">
+        <h2>Featured Coffees</h2>
+        <div class="products__grid">
+            <div class="product">
+                <img src="coffee1.png" alt="Classic Brew Coffee">
+                <h3>Classic Brew</h3>
+                <p>A timeless blend for the true coffee aficionado.</p>
+            </div>
+            <div class="product">
+                <img src="coffee2.png" alt="Espresso Delight">
+                <h3>Espresso Delight</h3>
+                <p>Rich and bold, perfect for a strong start to your day.</p>
+            </div>
+            <div class="product">
+                <img src="coffee3.png" alt="Latte Bliss">
+                <h3>Latte Bliss</h3>
+                <p>Creamy and smooth, a touch of heaven in every sip.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about">
+        <h2>About Brew Haven</h2>
+        <p>Brew Haven is dedicated to delivering the finest coffee experience. Our beans are sourced from the best farms around the world, roasted to perfection, and brewed with passion. Every cup is crafted to bring joy and satisfaction to coffee lovers everywhere.</p>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <form action="#">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Brew Haven. All rights reserved.</p>
+    </footer>
+</body>
+</html>
